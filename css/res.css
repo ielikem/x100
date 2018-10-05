@@ -1,0 +1,162 @@
+@media(max-width: 768px){
+  .head #logo{
+    width:80px;
+    height:80px;
+  }
+  .head nav ul{
+    margin: 0 0;
+  }
+  .head nav ul li{
+    margin: 0 10px;
+  }
+  header #proj{
+    position: absolute;
+    right: 5px;
+    padding: 20px 10px;
+    top: 10%;
+  }
+  .head{
+    flex-direction: column;
+  }
+  .landing-wrap{
+    flex-direction: column;
+  }
+  .copy{
+    margin-top: 30px;
+  }
+  .showcase{
+    height: 300px;
+  }
+  #landing #mark{
+    position: absolute;
+    top: 4%;
+    right: -18%;
+    font-size: 5em;
+    transform: rotateZ(270deg);
+  }
+  #services{
+    padding: 50px 0;
+  }
+  .services-content{
+    display: flex;
+    flex-direction: column;
+  }
+  #headline{
+    font-size: 5em;
+    line-height: 80px;
+    margin-bottom: 30px;
+  }
+  .skills .set{
+    border-bottom: 1px solid #fff;
+  }
+  .skills .set::after{
+    display: none;
+  }
+  .form input{
+    width: 250px;
+  }
+  .form textarea{
+    width: 250px;
+  }
+  #foot{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 30px 0;
+  }
+
+
+  /* Contact page*/
+  #contact-head{
+    min-height: 250px;
+  }
+  #contact-head #mark{
+    position: absolute;
+    top: 8%;
+    right: -18%;
+    font-size: 5em;
+    transform: rotateZ(270deg);
+  }
+  #contact-head #headline{
+    position: absolute;
+    top: 40%;
+    font-size: 3.5em;
+  }
+  .contacting{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-form input{
+    width: 250px;
+  }
+  .contact-form textarea{
+    width: 250px;
+  }
+  .contacting #social{
+    margin-bottom: 50px;
+  }
+
+  /* projects */
+
+  .ports{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .port {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    position: relative;
+  }
+  .port:hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  .port:hover h3{
+    display: block;
+  }
+  .port h3:hover{
+    background-color: #dd3d25;
+    color: #fff;
+  }
+  .port h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    font-weight: 400;
+    display : none;
+    transition: 0.2s;
+    padding: 20px 40px;
+  }
+  .port h3 a{
+    text-decoration: none;
+    color: #000;
+    padding: 60px ;
+  }
+  .port img{
+    width: 100%;
+    height: 100%;
+  }
+  .email-us{
+    margin-top: 60px;
+    padding: 15px;
+  }
+  .email-us a{
+    color: #dd3d25;
+    text-decoration: none;
+  }
+
+}
